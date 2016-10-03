@@ -1,0 +1,118 @@
+name: SSEngine
+main: com.swingsword.ssengine.MasterPlugin
+version: 1.0
+description: The SwingSword core plugin.
+depend: [WorldEdit]
+softdepend: [NPCLib]
+commands:
+  db:
+    description: Database command.
+  friend:
+    description: Friend command.
+  friends:
+    description: Friends command.
+  block:
+    description: Block command.
+  message:
+    description: Message command.
+    aliases: [msg]
+  profile:
+    description: Profile command.
+  inbox:
+    description: Inbox command.
+  search:
+    description: Search command.
+  join:
+    description: Join command.
+  party:
+    description: Party command.
+  hub:
+    description: Hub command.
+  ban:
+    description: Ban command.
+  tempban:
+    description: Tempban command.
+  unban:
+    description: Unban command.
+  mute:
+    description: Mute command.
+  unmute:
+    description: Unmute command.
+  kick:
+    description: Kick command.
+  inv:
+    description: Inv command.
+  settings:
+    description: Settings command.
+  vanish:
+    description: Vanish command.
+  staff:
+    description: Staff commmand.
+  update:
+    description: Update command.
+  setlocation:
+    description: Set locations for spawn points
+  debug:
+    description: Debug mode
+  createbuyarea:
+    description: Create buy area
+  setbombsite:
+    description: Set bomb site
+  guns:
+    description: Guns command
+  loadout:
+    description: Loadout command
+  givegun:
+    description: Givegun command
+  portal:
+    description: Portal command.
+  scoreboard:
+    description: Scoreboard command.
+  hubmin:
+    description: Hubmin command.
+  fly:
+    description: Fly command.
+  createradzone:
+    description: Rad command.
+  suicide:
+    description: Suicide command.
+  airdrop:
+    description: Main command.
+  rustbuilding:
+    description: Main command.
+  createnobuildzone: 
+    description: NoBuild command.
+  craft:
+    description: /craft
+  customitem:
+    description: /customitem
+  c:
+    description: /c
+  cancel:
+    description: /cancel
+  setcode:
+    description: Set door code. /setcode <4 numbers>
+  entercode:
+    description: Enter door code. /entercode <4 numbers>
+  rustguns:
+    description: Main command.
+  gun:
+    description: Gun command.
+  f:
+    description: Flashlight command.
+  createlootcrate:
+    description:  Create loot crate.
+  createspawnzone:
+    description:  Create spawn zone.
+  createorespawnzone:
+    description:  Create Ore spawn zone.
+  addspawn:
+    description: /addspawn
+  customitem:
+    description: /customitem
+  admin:
+    description: /admin
+  test:
+    description: /test
+  plot:
+    description: /plot
